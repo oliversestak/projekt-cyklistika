@@ -23,7 +23,7 @@
             <tr>
                 <td><?= $i + 1 ?></td>
                 <td><?= esc($rider['first_name'] . ' ' . $rider['last_name']) ?></td>
-                <td><img src="<?= base_url('flags/' . strtolower($rider['country']) . '.png') ?>" width="24"> <?= esc($rider['country']) ?></td>
+                <td><img src="<?= base_url('node_modules/flag-icons/flags/1x1/' . strtolower($rider['country']) . '.svg') ?>" width="24"> </td>
                 <td><?= esc($rider['time']) ?></td>
             </tr>
         <?php endforeach; ?>
