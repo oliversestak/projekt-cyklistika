@@ -9,7 +9,7 @@ class RaceType extends Model
     protected $table            = 'race_type';
     protected $primaryKey       = 'short';
     protected $useAutoIncrement = true;
-    protected $returnType       = 'object';
+    protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = [];

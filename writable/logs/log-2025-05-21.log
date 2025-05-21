@@ -1,0 +1,22 @@
+CRITICAL - 2025-05-21 11:07:54 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: /]
+in APPPATH\Controllers\Main.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->stranka1()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-21 11:34:10 --> CodeIgniter\Database\Exceptions\DataException: Allowed fields must be specified for model: "App\Models\Stage"
+[Method: POST, Route: main/updateEtapa]
+in SYSTEMPATH\BaseModel.php on line 1342.
+ 1 SYSTEMPATH\BaseModel.php(1342): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Stage')
+ 2 SYSTEMPATH\BaseModel.php(1009): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update([...], [...])
+ 4 APPPATH\Controllers\Main.php(71): CodeIgniter\Model->update('976', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->updateEtapa()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
