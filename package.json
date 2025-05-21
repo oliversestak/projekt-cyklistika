@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.6",
-    "bootswatch": "^5.3.6"
+    "bootswatch": "^5.3.6",
+    "flag-icons": "^7.3.2"
   }
 }

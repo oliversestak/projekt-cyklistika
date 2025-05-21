@@ -6,7 +6,7 @@
 <p>Délka: <?= esc($stage['distance']) ?> km</p>
 <p>Typ: <?= esc($stage['parcour_type']) ?></p>
 <p>Převýšení: <?= esc($stage['vertical_meters']) ?> m</p>
-<p><img src="<?= base_url('uploads/maps/' . $stage['profile']) ?>" alt="Profil etapy" style="max-width:400px;"></p>
+<p><img src="<?= base_url('profiles/' . $stage['profile']) ?>" alt="Profil etapy" style="max-width:400px;"></p>
 
 <h3>Celkové pořadí po etapě</h3>
 <table class="table">
